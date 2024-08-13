@@ -1,0 +1,51 @@
+div {
+    background-color: yellow;
+    color: red;
+  }
+  h1{
+    background-color: yellow;
+    color: red;
+  }
+
+
+h3{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+#blue{
+    background-color: blue;
+    color: white;
+}
+
+.a>p{
+color: red;
+}
+
+.b p{
+    color: blue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:visited{
+    color: yellow;
+}
+a:active{
+    color: rgb(21, 0, 255);
+}
+a:hover{
+    background-color: red;
+}
+
+p:first-child{
+    background-color: blue;
+}

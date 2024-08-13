@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+    <style>
+        .box{
+            background-color: aqua;
+        }
+
+        .box1{
+            color: rgb(255, 98, 0);
+            margin: 25px;
+            padding: 10px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+         }
+
+         .box2{
+            color: rgb(0, 255, 38);
+            margin: 25px;
+            padding: 10px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+         }
+         /* margin collapse the maximum margin value between 2 boxes will only come to action  */
+    </style>
+</head>
+<body>
+    <div class="box box1">I am box 1</div>
+    <div class="box box2">I am box 2</div>
+</body>
+</html>
