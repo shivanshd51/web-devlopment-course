@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>font size</title>
+    <style>
+      html {
+        font-size: 12px;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .box {
+        box-sizing: border-box;
+        border: 2px solid black;
+        background-color: rgb(0, 255, 221);
+        /* width: 1280px */
+        width: 80vw;
+        height: 10vh;
+        margin: auto;
+      }
+
+      .container {
+        box-sizing: border-box;
+        border: 2px solid black;
+        background-color: rgb(0, 255, 221);
+        /* width: 1280px */
+        width: 80vw;
+        /* height: 80vh; */
+        min-height: 80vh;
+        min-height: 80vh;
+        margin: 23px auto;
+        font-size: 2rem;
+      }
+      .container > div{
+        border: 2px solid black;
+        font-size: 22px;
+        width: 50%;
+      }
+
+      .container > div > div{
+        border: 2px solid black;
+        font-size: 22px;
+        width: 50%;
+      }
+
+      .container > div > div > div{
+        border: 2px solid black;
+        font-size: 22px;
+        width: 50%;
+      }
+
+      .mycont {
+        box-sizing: border-box;
+        background-color: red;
+        color: yellow;
+        width: 100vmin;
+        margin: 23px auto;
+        font-size: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">I am shivansh dubey</div>
+    <div class="container">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos
+        nobis distinctio inventore saepe numquam, nisi, enim, fugit deleniti
+        esse consequatur ipsa reprehenderit
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          commodi itaque nisi incidunt voluptatibus cum, iure, at ipsa, quo
+          beatae enim sequi tenetur.
+          <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            expedita, laborum distinctio, ab rem doloremque maiores odio
+            repudiandae eos aspernatur provident impedit odit.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- in computer v min is height bcoz height is small in pc but in phone width is v min bcoz width is small in phone -->
+
+    <div class="mycont">i am another box</div>
+  </body>
+</html>
+<!-- video 22 completed -->
