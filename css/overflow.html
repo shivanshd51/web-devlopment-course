@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>overflow</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            width: 30vw;
+            height: 40vh;
+            /* to fix oveflow we can use 2 properties and that is overflow auto and overflow scroll 
+            among these 2 we prefer auto because it depends on the content that there will be scroll bar or not */
+            /* overflow: scroll; */
+            /* overflow: auto;
+            white-space: nowrap;
+            text-overflow: ellipsis; */
+            overflow: scroll hidden;
+
+        }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      I am a good boy and I like to write Lorem ipsum dolor sit, amet
+      consectetur adipisicing elit. Ipsum consectetur debitis similique et hic?
+      Nesciunt, rerum dolore ipsam ducimus iusto et quasi magnam quos libero
+      obcaecati magni officia sint iure saepe atque exercitationem doloremque
+      odit culpa accusamus illum minus quibusdam suscipit accusantium. Eligendi,
+      perspiciatis est?
+    </div>
+  </body>
+</html>
