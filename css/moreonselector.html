@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on selectors</title>
+    <style>
+        /* .box:first-child{
+            background-color: brown;
+        } */
+        .box::first-line{
+            color: red;
+        }
+
+        ::selection{
+            background-color: aqua;
+            color: white;
+        }
+        .box::first-letter{
+            font-size: 123px;
+            color: green;
+        }
+/* pseoudo elements */
+        .boxes::before{
+            content: "shivansh is a good boy";
+        }
+
+        .boxes::after{
+            content: "website is also good";
+        }
+
+        input::placeholder{
+            color: rgba(86, 86, 90, 0.758);
+            /* font-size: 45px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Hey i am box 1</div>
+        <div class="box">Hey i am box 1</div>
+        <div class="box">Hey i am box 1 </div>
+        <input type="text" placeholder="type your name">
+    </div>
+</body>
+</html>
