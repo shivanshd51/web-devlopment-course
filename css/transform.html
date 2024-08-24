@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transform</title>
+    <style>
+        .cont{
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid rgb(255, 0, 0);
+        }
+
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: beige;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* transform: rotate(45deg); */
+            /* transform: rotate(0.25turn); */
+            /* transform: rotateX(40deg); */
+            /* transform: rotateY(40deg); */
+            /* transform: rotateZ(40deg); */
+            
+
+        }
+
+        .box:hover{
+            transform: skew(20deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>
